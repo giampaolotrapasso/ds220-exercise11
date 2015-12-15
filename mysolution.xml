@@ -1,0 +1,602 @@
+<KDMPROJECT>
+  <ERMODEL>
+    <mxGraphModel dx="15.42" dy="-69.25" grid="1" guides="1" tooltips="1" connect="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="250" value="User" style="whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="60" y="203" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="251" value="id" style="ellipse;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="70" y="123" width="80" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="252" value="" style="edgeStyle=none;exitX=0.5;exitY=0;entryX=0.5;entryY=1" edge="1" source="250" target="251" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint"/>
+            <mxPoint x="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="253" value="Video" style="whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="350" y="203" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="254" value="Actor" style="whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="640" y="195" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="255" value="uploads" style="shape=card;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="190" y="195" width="130" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="256" value="features" style="shape=card;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="490" y="195" width="130" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="257" value="1" style="edgeStyle=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;entryPerimeter=0" edge="1" source="250" target="255" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint"/>
+            <mxPoint x="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="258" value="n" style="edgeStyle=none;exitX=1;exitY=0.5;exitPerimeter=0" edge="1" source="255" target="253" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint"/>
+            <mxPoint x="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="259" value="n" style="edgeStyle=none;exitX=1;exitY=0.5" edge="1" source="253" target="256" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint"/>
+            <mxPoint x="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="260" value="m" style="edgeStyle=none" edge="1" source="256" target="254" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="580" y="390" as="sourcePoint"/>
+            <mxPoint x="680" y="290" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="261" value="name" style="ellipse;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="750" y="115" width="80" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="262" value="" style="edgeStyle=none;exitX=0.5;exitY=0;entryX=0.5;entryY=1" edge="1" source="254" target="261" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint"/>
+            <mxPoint x="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="263" value="character name" style="ellipse" vertex="1" parent="1">
+          <mxGeometry x="540" y="103" width="130" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="264" value="" style="edgeStyle=none;exitX=0.5;exitY=1" edge="1" source="263" target="256" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint"/>
+            <mxPoint x="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="265" value="description" style="ellipse" vertex="1" parent="1">
+          <mxGeometry x="370" y="108" width="80" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="266" value="title" style="ellipse" vertex="1" parent="1">
+          <mxGeometry x="290" y="143" width="80" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="267" value="id" style="ellipse;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="430" y="143" width="80" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="268" value="type" style="ellipse" vertex="1" parent="1">
+          <mxGeometry x="255" y="291" width="80" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="269" value="release year" style="ellipse" vertex="1" parent="1">
+          <mxGeometry x="310" y="330" width="80" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="270" value="" style="edgeStyle=none;exitX=0.5;exitY=0;entryX=0.5;entryY=1" edge="1" source="268" target="253" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint"/>
+            <mxPoint x="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="271" value="" style="edgeStyle=none;exitX=0.5;exitY=1" edge="1" source="253" target="269" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="364" y="265" as="sourcePoint"/>
+            <mxPoint x="306.105936136277" y="343.0551988443094" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="272" value="genres" style="ellipse;shape=doubleEllipse;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="410" y="330" width="80" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="273" value="tags" style="ellipse;shape=doubleEllipse;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="475" y="273.5" width="80" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="274" value="" style="edgeStyle=none;exitX=0.5;exitY=0;entryX=0.5;entryY=1" edge="1" source="272" target="253" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint"/>
+            <mxPoint x="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="275" value="" style="edgeStyle=none;exitX=0.5;exitY=1" edge="1" source="253" target="273" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint"/>
+            <mxPoint x="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="276" value="" style="edgeStyle=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0" edge="1" source="266" target="253" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint"/>
+            <mxPoint x="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="277" value="" style="edgeStyle=none;exitX=0.5;exitY=1" edge="1" source="265" target="253" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint"/>
+            <mxPoint x="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="278" value="" style="edgeStyle=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0" edge="1" source="267" target="253" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint"/>
+            <mxPoint x="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="279" value="timestamp" style="ellipse" vertex="1" parent="1">
+          <mxGeometry x="175" y="133" width="80" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="280" value="" style="edgeStyle=none;exitX=0.5;exitY=1" edge="1" source="279" target="255" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint"/>
+            <mxPoint x="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+    <KEYS_JSON>
+{}    </KEYS_JSON>
+  </ERMODEL>
+  <ACCESS_PATTERNS width="1120px" height="680px" left="252px" top="515px">
+    <Q1>
+      <APTYPE>
+simple      </APTYPE>
+      <GR>
+        <ATTRIBUTE>
+          <DIV>
+Video.tags          </DIV>
+        </ATTRIBUTE>
+        <VRS>
+value        </VRS>
+      </GR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+uploads.timestamp          </DIV>
+        </ATTRIBUTE>
+        <ORDERBY>
+DESC        </ORDERBY>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.id          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.description          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.title          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.tags          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.genres          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.release year          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.type          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <DESCR>
+Find all user videos that match a specific tag (show the most recent uploaded videos first)      </DESCR>
+    </Q1>
+    <Q2>
+      <APTYPE>
+simple      </APTYPE>
+      <GR>
+        <ATTRIBUTE>
+          <DIV>
+            <DIV>
+Actor.name                      </DIV>
+          </DIV>
+        </ATTRIBUTE>
+        <VRS>
+value        </VRS>
+      </GR>
+      <GR>
+        <ATTRIBUTE>
+          <DIV>
+            <DIV>
+Video.release year                      </DIV>
+          </DIV>
+        </ATTRIBUTE>
+        <VRS>
+range        </VRS>
+      </GR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+            <DIV>
+Video.release year                      </DIV>
+          </DIV>
+        </ATTRIBUTE>
+        <ORDERBY>
+DESC        </ORDERBY>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+            <DIV>
+Video.title                      </DIV>
+          </DIV>
+        </ATTRIBUTE>
+        <ORDERBY>
+ASC        </ORDERBY>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+            <DIV>
+Video.id                      </DIV>
+          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+            <DIV>
+Video.description                      </DIV>
+          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+            <DIV>
+Video.type                      </DIV>
+          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+            <DIV>
+Video.genres                      </DIV>
+          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+            <DIV>
+Video.tags                      </DIV>
+          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <DESCR>
+Find all movies that features a specific actor and release year range (show the most recent videos first, and then sorted by title)      </DESCR>
+    </Q2>
+    <Q3>
+      <APTYPE>
+simple      </APTYPE>
+      <GR>
+        <ATTRIBUTE>
+          <DIV>
+Actor.name          </DIV>
+        </ATTRIBUTE>
+        <VRS>
+value        </VRS>
+      </GR>
+      <GR>
+        <ATTRIBUTE>
+          <DIV>
+Video.genres          </DIV>
+        </ATTRIBUTE>
+        <VRS>
+value        </VRS>
+      </GR>
+      <GR>
+        <ATTRIBUTE>
+          <DIV>
+Video.release year          </DIV>
+        </ATTRIBUTE>
+        <VRS>
+range        </VRS>
+      </GR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.id          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.description          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.release year          </DIV>
+        </ATTRIBUTE>
+        <ORDERBY>
+DESC        </ORDERBY>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.title          </DIV>
+        </ATTRIBUTE>
+        <ORDERBY>
+ASC        </ORDERBY>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.type          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.tags          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <FR>
+        <ATTRIBUTE>
+          <DIV>
+Video.genres          </DIV>
+        </ATTRIBUTE>
+      </FR>
+      <DESCR>
+Find all movies that features a specific actor, genre and release year range (show the most recent videos first, and then sorted by title)      </DESCR>
+    </Q3>
+  </ACCESS_PATTERNS>
+  <LOGICAL_MODEL>
+    <Q1 qTemplate="SELECT |s|uploads__timestamp|e|, |s|Video__id|e|, |s|Video__description|e|, |s|Video__title|e|, |s|Video__tags|e|, |s|Video__genres|e|, |s|Video__release year|e|, |s|Video__type|e| FROM |s|tableName|e| WHERE |s|Video__tag|e|=? ORDER BY |s|uploads__timestamp|e| DESC;">
+      <tbl>
+        <videos_by_tag/>
+        <columns>
+          <tag origName="Video__tag">
+            <K/>
+            <NOCLUST/>
+          </tag>
+          <timestamp origName="uploads__timestamp">
+            <C>
+DESC              <expl/>
+            </C>
+          </timestamp>
+          <video_id origName="Video__id">
+            <C>
+ASC            </C>
+          </video_id>
+          <description origName="Video__description"/>
+          <title origName="Video__title"/>
+          <tags origName="Video__tags">
+            <COLL/>
+            <NOCLUST/>
+          </tags>
+          <genres origName="Video__genres">
+            <COLL/>
+            <NOCLUST/>
+          </genres>
+          <releaseyear origName="Video__release year"/>
+          <type origName="Video__type"/>
+        </columns>
+      </tbl>
+    </Q1>
+    <Q2 qTemplate="SELECT |s|Video__release year|e|, |s|Video__title|e|, |s|Video__id|e|, |s|Video__description|e|, |s|Video__type|e|, |s|Video__genres|e|, |s|Video__tags|e| FROM |s|tableName|e| WHERE |s|Actor__name|e|=? and |s|Video__release year|e|&gt;? ORDER BY |s|Video__release year|e| DESC, |s|Video__title|e| ASC;">
+      <tbl>
+        <videos_by_actor/>
+        <columns>
+          <name origName="Actor__name">
+            <K/>
+            <NOCLUST/>
+          </name>
+          <releaseyear origName="Video__release year">
+            <C>
+DESC              <expl/>
+            </C>
+          </releaseyear>
+          <title origName="Video__title">
+            <C>
+ASC              <expl/>
+            </C>
+          </title>
+          <video_id origName="Video__id">
+            <C>
+ASC            </C>
+          </video_id>
+          <description origName="Video__description"/>
+          <type origName="Video__type"/>
+          <genres origName="Video__genres">
+            <COLL/>
+            <NOCLUST/>
+          </genres>
+          <tags origName="Video__tags">
+            <COLL/>
+            <NOCLUST/>
+          </tags>
+        </columns>
+      </tbl>
+    </Q2>
+    <Q3 qTemplate="SELECT |s|Video__release year|e|, |s|Video__title|e|, |s|Video__id|e|, |s|Video__description|e|, |s|Video__type|e|, |s|Video__tags|e|, |s|Video__genres|e| FROM |s|tableName|e| WHERE |s|Video__genre|e|=? and |s|Actor__name|e|=? and |s|Video__release year|e|&gt;? ORDER BY |s|Video__release year|e| DESC, |s|Video__title|e| ASC;">
+      <tbl>
+        <videos_by_actor0/>
+        <columns>
+          <name origName="Actor__name">
+            <K/>
+            <NOCLUST/>
+          </name>
+          <genre origName="Video__genre">
+            <C>
+ASC              <expl/>
+            </C>
+            <NOCLUST/>
+          </genre>
+          <releaseyear origName="Video__release year">
+            <C>
+DESC              <expl/>
+            </C>
+          </releaseyear>
+          <title origName="Video__title">
+            <C>
+ASC              <expl/>
+            </C>
+          </title>
+          <video_id origName="Video__id">
+            <C>
+ASC            </C>
+          </video_id>
+          <description origName="Video__description"/>
+          <type origName="Video__type"/>
+          <tags origName="Video__tags">
+            <COLL/>
+            <NOCLUST/>
+          </tags>
+          <genres origName="Video__genres">
+            <COLL/>
+            <NOCLUST/>
+          </genres>
+        </columns>
+      </tbl>
+      <tbl>
+        <videos_by_actor1/>
+        <columns>
+          <genre origName="Video__genre">
+            <K/>
+            <NOCLUST/>
+          </genre>
+          <name origName="Actor__name">
+            <C>
+ASC              <expl/>
+            </C>
+          </name>
+          <releaseyear origName="Video__release year">
+            <C>
+DESC              <expl/>
+            </C>
+          </releaseyear>
+          <title origName="Video__title">
+            <C>
+ASC              <expl/>
+            </C>
+          </title>
+          <video_id origName="Video__id">
+            <C>
+ASC            </C>
+          </video_id>
+          <description origName="Video__description"/>
+          <type origName="Video__type"/>
+          <tags origName="Video__tags">
+            <COLL/>
+            <NOCLUST/>
+          </tags>
+          <genres origName="Video__genres">
+            <COLL/>
+            <NOCLUST/>
+          </genres>
+        </columns>
+      </tbl>
+      <tbl>
+        <videos_by_actor2/>
+        <columns>
+          <genre origName="Video__genre">
+            <K/>
+            <NOCLUST/>
+          </genre>
+          <name origName="Actor__name">
+            <K/>
+            <NOCLUST/>
+          </name>
+          <releaseyear origName="Video__release year">
+            <C>
+DESC              <expl/>
+            </C>
+          </releaseyear>
+          <title origName="Video__title">
+            <C>
+ASC              <expl/>
+            </C>
+          </title>
+          <video_id origName="Video__id">
+            <C>
+ASC            </C>
+          </video_id>
+          <description origName="Video__description"/>
+          <type origName="Video__type"/>
+          <tags origName="Video__tags">
+            <COLL/>
+            <NOCLUST/>
+          </tags>
+          <genres origName="Video__genres">
+            <COLL/>
+            <NOCLUST/>
+          </genres>
+        </columns>
+      </tbl>
+      <tbl>
+        <videos_by_actor3/>
+        <columns>
+          <name origName="Actor__name">
+            <K/>
+            <NOCLUST/>
+          </name>
+          <genre origName="Video__genre">
+            <K/>
+            <NOCLUST/>
+          </genre>
+          <releaseyear origName="Video__release year">
+            <C>
+DESC              <expl/>
+            </C>
+          </releaseyear>
+          <title origName="Video__title">
+            <C>
+ASC              <expl/>
+            </C>
+          </title>
+          <video_id origName="Video__id">
+            <C>
+ASC            </C>
+          </video_id>
+          <description origName="Video__description"/>
+          <type origName="Video__type"/>
+          <tags origName="Video__tags">
+            <COLL/>
+            <NOCLUST/>
+          </tags>
+          <genres origName="Video__genres">
+            <COLL/>
+            <NOCLUST/>
+          </genres>
+        </columns>
+      </tbl>
+    </Q3>
+    <LOGICAL_CONFIGEL>
+{"videos_by_tag":"","videos_by_actor":"","videos_by_actor2":""}    </LOGICAL_CONFIGEL>
+  </LOGICAL_MODEL>
+</KDMPROJECT>
